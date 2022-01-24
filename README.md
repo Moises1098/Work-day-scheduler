@@ -1,5 +1,5 @@
 # Unit 05: Third-Party APIs: Work-Day-Scheduler
-You can type words into the middle section and on the left you can click to save the content into local storage. When refreshed page content will still be there.(currently dosen't work = when the time equals the hour tab the conent background will turn red, when it is in the past it will be grey and when it is in the future it will have a green background.)
+You can type words into the middle section and on the left you can click to save the content into local storage. When refreshed page content will still be there When the time equals the timeblock's background will turn red, when it is in the past it will be grey and when it is in the future it will be green.
 
 
 ## Programs used
@@ -23,4 +23,4 @@ You can type words into the middle section and on the left you can click to save
 
 
 ### Example of what it should look like:
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-screenshot.png)
