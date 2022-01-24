@@ -28,34 +28,15 @@ $("#hour-3").val(localStorage.getItem("hour-3"))
 $("#hour-4").val(localStorage.getItem("hour-4"))
 $("#hour-5").val(localStorage.getItem("hour-5"))
 
-// var timeColor = $('hour')
-// var timetNow = moment().format('hh');
-
-// if (moment.format('hh') > timeColor){
-//     timeColor.classList.add('bg-success')
-//     timeColor.classList.remove('bg-secondary')
-//     timeColor.classList.remove('bg-danger')
-
-// }
-// if (moment.format('hh') < rightNow){
-//     timeColor.classList.add('bg-secondary')
-//     timeColor.classList.remove('bg-danger')
-//     timeColor.classList.remove('bg-success')
-// }
-
-// if (moment.format('hh') === rightNow){
-//     timeColor.classList.add('bg-danger')
-//     timeColor.classList.remove('bg-secondary')
-//     timeColor.classList.remove('bg-success')
-// }
 
 
 //credit = https://github.com/rosajen27/work-day-scheduler for below code:
 
+
+
 var now = new Date().getHours();
-// moment().hour(); 
-
-
+moment().hour();  
+console.log(now)
 
 function colorCode() {
   if (now > 9) {
@@ -122,3 +103,5 @@ function colorCode() {
     $("#hour-5").addClass("future");
   }
 }
+
+colorCode()
